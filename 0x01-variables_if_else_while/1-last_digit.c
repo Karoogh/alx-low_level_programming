@@ -5,7 +5,7 @@
 /* betty style doc for function main goes there */
 /**
  * main - program Completes the source code in order to print the last digit
- * Return: Always 0
+ * Return: Always 0.
  */
 int main(void)
 {
