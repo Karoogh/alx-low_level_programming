@@ -1,24 +1,16 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
 /**
- * main - program that prints all possible combinations of single-digit numbers
+ * main - Print numbers from 0 to 9.
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	int d;
+	int i;
 
-	for (d = '0'; d <= '9'; d++)
+	for (i = 48; i < 58; i++)
 	{
-	putchar(d);
-	if (d != '9')
-	{
-	putchar(',');
-	putchar(' ');
+		putchar(i);
 	}
 	putchar('\n');
-	}
 	return (0);
 }
