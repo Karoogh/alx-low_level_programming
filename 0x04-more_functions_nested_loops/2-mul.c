@@ -9,5 +9,6 @@
 
 int mul(int x, int y)
 {
-	retun(x * y);
+
+	return (x * y);
 }
