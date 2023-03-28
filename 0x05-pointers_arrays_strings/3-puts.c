@@ -1,15 +1,16 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * prints_a_string - function that prints a string, followed by a new line
- * @str: the string to be printed
- * Return: 0 always
+ * _puts - prints a string
+ * @str: The string to print
+ * Return: void
  */
 
 void _puts(char *str)
 {
-
-	char greeting[6] = {'H', 'e', 'l', 'l', 'o', '\0'};
-
-	printf("Greeting message: %s\n", greeting);
+	for (; *str != '\0'; str++)
+	{
+		_putchar(*str);
+	}
+	_putchar('\n');
 }
